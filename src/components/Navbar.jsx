@@ -1,11 +1,8 @@
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
-import { Link } from "react-router-dom";
-import AboutMe from '../components/AboutMe';
-import Portfolio from '../components/Portfolio';
-import Home from '../components/Home';
 
-const Navbar = () => {
+
+const Navbar = ({handlePageChange}) => {
 
   const [nav, setNav] = useState(false);
 
@@ -18,10 +15,10 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-5 text-[##f5f5dc]'>
         <h1 className='w-full text-3xl font-bold text-white'></h1>
         <ul className='hidden md:flex'>
-          <li className='p-4'>Home</li>
-          <li className='p-4'>About</li>
-          <li className='p-4'>Portfolio</li>
-          <li className='p-4'>Contact</li>
+          <li className='p-4'><a href="/" onClick={()=> handlePageChange('home')}>Home</a></li>
+          <li className='p-4'><a href="#about" onClick={()=> handlePageChange('about')}>About</a></li>
+          <li className='p-4'><a href="#portfolio" onClick={()=> handlePageChange('portfolio')}>Portfolio</a></li>
+          <li className='p-4'><a href="#contact" onClick={()=> handlePageChange('contact')}>Contact</a></li>
                    
         </ul>
       
@@ -34,7 +31,7 @@ const Navbar = () => {
       <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-white-900 bg-white m-4 ease-in-out duration-500' : 'fixed left-[-100%]'}>
       
         <ul className='pt-14 uppercase'>
-          <li className='p-4 border-b border-white-600'>About Me</li>
+          <li className='p-4 border-b border-white-600'>About</li>
           <li className='p-4 border-b border-white-600' >Portfolio</li>
           <li className='p-4 border-b border-white-600'>Contact</li>
           <li className='p-4 border-b border-white-600'>Resume</li>
