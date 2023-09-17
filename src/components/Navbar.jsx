@@ -31,9 +31,9 @@ const Navbar = ({handlePageChange}) => {
       <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-white-900 bg-white m-4 ease-in-out duration-500' : 'fixed left-[-100%]'}>
       
         <ul className='pt-14 uppercase'>
-          <li className='p-4 border-b border-white-600'>About</li>
-          <li className='p-4 border-b border-white-600' >Portfolio</li>
-          <li className='p-4 border-b border-white-600'>Contact</li>
+          <li className='p-4 border-b border-white-600'><a href="#about" onClick={()=> handlePageChange('AboutMe')}>About</a></li>
+          <li className='p-4 border-b border-white-600' ><a href="#portfolio" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a></li>
+          <li className='p-4 border-b border-white-600'><a href="#contact" onClick={()=> handlePageChange('ContactMe')}>Contact</a></li>
           <li className='p-4 border-b border-white-600'>Resume</li>
         </ul>
       </div>

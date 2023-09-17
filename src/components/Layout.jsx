@@ -12,11 +12,11 @@ const Body = () => {
     const renderComponent = () => {
         if (currentPage === 'Home') {
             return <Home />
-        } else if (currentPage === 'About') {
+        } else if (currentPage === 'AboutMe') {
             return <AboutMe />
         } else if (currentPage === 'Portfolio') {
             return <Portfolio />
-        } else if (currentPage === 'Contact') {
+        } else if (currentPage === 'ContactMe') {
             return <ContactMe />
         } else {
             return
