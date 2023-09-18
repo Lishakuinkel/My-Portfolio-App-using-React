@@ -10,7 +10,7 @@ const Home = () => {
                 <p className='text-[#d4d48d] md:text-4xl sm:text-2xl text-2xl md:py-4'>A Full Stack Developer with passion of building all sides of app development </p>           
             </div>
             
-            <Typed className='text-[#cecebb] font-mono md:text-2xl sm:text-1xl text-1xl md:py-4' strings={['React, Node.js, Express.js, Tailwind CSS, MongoDB, GraphQL']} typeSpeed={250} backSpeed={200} loop/>
+            <Typed className='text-[#cecebb] font-mono md:text-2xl sm:text-1xl text-1xl md:py-4' strings={['React, Node.js, Express.js, Tailwind CSS, MongoDB, GraphQL']} typeSpeed={450} backSpeed={200} loop/>
         </div>
 
     </div>

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 
 
+
 const Navbar = ({handlePageChange}) => {
 
   const [nav, setNav] = useState(false);
@@ -13,12 +14,13 @@ const Navbar = ({handlePageChange}) => {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-5 text-[##f5f5dc]'>
-        <h1 className='w-full text-3xl font-bold text-white'></h1>
-        <ul className='hidden md:flex'>
-          <li className='p-4'><a href="/" onClick={()=> handlePageChange('Home')}>Home</a></li>
-          <li className='p-4'><a href="#about" onClick={()=> handlePageChange('AboutMe')}>About</a></li>
-          <li className='p-4'><a href="#portfolio" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a></li>
-          <li className='p-4'><a href="#contact" onClick={()=> handlePageChange('ContactMe')}>Contact</a></li>
+        <h1 className='w-full text-3xl font-bold'></h1>
+        <ul className='hidden md:flex  text-[#819ebb]'>
+          <li className='p-4  hover:text-[#cfd9e3]'><a href="/" onClick={()=> handlePageChange('Home')}>Home</a></li>
+          <li className='p-4  hover:text-[#cfd9e3]'><a href="#about" onClick={()=> handlePageChange('AboutMe')}>About</a></li>
+          <li className='p-4  hover:text-[#cfd9e3]'><a href="#portfolio" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a></li>
+          <li className='p-4  hover:text-[#cfd9e3]'><a href="#contact" onClick={()=> handlePageChange('ContactMe')}>Contact</a></li>
+          <li className='p-4  hover:text-[#cfd9e3]'><a href="./src/assets/Resume.pdf" download>Resume</a></li>
                    
         </ul>
       
