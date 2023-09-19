@@ -21,4 +21,16 @@ Run these commands:
 
 Open http://localhost:3005 to view it in the browser.
 
-##
+## Contribution
+Contributing is welcomed so please submit a pull request. 
+
+## Contact me 
+Email me at ltkuinkel@gmail.com 
+
+Check out my github profile: https://github.com/Lishakuinkel
+
+## References
+https://legacy.reactjs.org/tutorial/tutorial.html
+https://www.npmjs.com/package/react-toastify
+https://tailwindcss.com/docs/installation
+https://www.w3schools.com/react/react_useref.asp
