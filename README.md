@@ -3,7 +3,7 @@
 <img width="1074" alt="image" src="https://github.com/Lishakuinkel/my-portfolio-using-react/assets/130411719/a42b3f5d-fb65-4ed9-86bc-321d1dd53ed2">
 
 
-This is my personal portfolio web app which features some of my related github projects as well as my resume and about me section.
+This is my self-coded personal portfolio website which features some of my related github projects as well as my resume and about me section.
 
 ## Technologies used
 
