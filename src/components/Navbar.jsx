@@ -20,7 +20,7 @@ const Navbar = ({handlePageChange}) => {
           <li className='p-4  hover:text-[#cfd9e3]'><a href="#about" onClick={()=> handlePageChange('AboutMe')}>About</a></li>
           <li className='p-4  hover:text-[#cfd9e3]'><a href="#portfolio" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a></li>
           <li className='p-4  hover:text-[#cfd9e3]'><a href="#contact" onClick={()=> handlePageChange('ContactMe')}>Contact</a></li>
-          <li className='p-4  hover:text-[#cfd9e3]'><a href="./src/assets/Resume.pdf" download>Resume</a></li>
+          <li className='p-4  hover:text-[#cfd9e3]'><a href="Resume.pdf" download>Resume</a></li>
                    
         </ul>
       
@@ -36,7 +36,7 @@ const Navbar = ({handlePageChange}) => {
           <li className='p-4 border-b border-white-600'><a href="#about" onClick={()=> handlePageChange('AboutMe')}>About</a></li>
           <li className='p-4 border-b border-white-600' ><a href="#portfolio" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a></li>
           <li className='p-4 border-b border-white-600'><a href="#contact" onClick={()=> handlePageChange('ContactMe')}>Contact</a></li>
-          <li className='p-4 border-b border-white-600'>Resume</li>
+          <li className='p-4 border-b border-white-600'><a href="Resume.pdf" download>Resume</a></li>
         </ul>
       </div>
     </div>
