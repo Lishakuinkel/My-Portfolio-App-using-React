@@ -7,7 +7,7 @@ This is my personal portfolio web app which features some of my related github p
 Clone this repository. You will need node.js and git installed globally on your machine.
 
 Run these commands: 
-```npm i```  ```npm run start```
+1. ```npm i```  2. ```npm run start```
 
 
 
