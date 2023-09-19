@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-using-react/static/css/main.972b1214.css",
-    "main.js": "/my-portfolio-using-react/static/js/main.697ba241.js",
+    "main.js": "/my-portfolio-using-react/static/js/main.3f4b6926.js",
     "static/media/mypic.JPG": "/my-portfolio-using-react/static/media/mypic.bd14e3afe6548bef158a.JPG",
     "static/media/jate.png": "/my-portfolio-using-react/static/media/jate.6730050ca60afccfcad5.png",
     "static/media/ecommerce.jpeg": "/my-portfolio-using-react/static/media/ecommerce.71f529c5a8a94828de81.jpeg",
@@ -10,10 +10,10 @@
     "static/media/pizzaexpress.jpeg": "/my-portfolio-using-react/static/media/pizzaexpress.3cb2f1425a49fb29e5aa.jpeg",
     "index.html": "/my-portfolio-using-react/index.html",
     "main.972b1214.css.map": "/my-portfolio-using-react/static/css/main.972b1214.css.map",
-    "main.697ba241.js.map": "/my-portfolio-using-react/static/js/main.697ba241.js.map"
+    "main.3f4b6926.js.map": "/my-portfolio-using-react/static/js/main.3f4b6926.js.map"
   },
   "entrypoints": [
     "static/css/main.972b1214.css",
-    "static/js/main.697ba241.js"
+    "static/js/main.3f4b6926.js"
   ]
 }
