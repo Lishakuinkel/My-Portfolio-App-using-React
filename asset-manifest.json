@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Lishakuinkel/my-portfolio-using-react/static/css/main.972b1214.css",
+    "main.js": "/Lishakuinkel/my-portfolio-using-react/static/js/main.0f150931.js",
+    "static/media/mypic.JPG": "/Lishakuinkel/my-portfolio-using-react/static/media/mypic.bd14e3afe6548bef158a.JPG",
+    "static/media/jate.png": "/Lishakuinkel/my-portfolio-using-react/static/media/jate.6730050ca60afccfcad5.png",
+    "static/media/ecommerce.jpeg": "/Lishakuinkel/my-portfolio-using-react/static/media/ecommerce.71f529c5a8a94828de81.jpeg",
+    "static/media/social network api.png": "/Lishakuinkel/my-portfolio-using-react/static/media/social network api.48ac907248d7780688ca.png",
+    "static/media/weather.webp": "/Lishakuinkel/my-portfolio-using-react/static/media/weather.e56399e367fcee145fde.webp",
+    "static/media/pizzaexpress.jpeg": "/Lishakuinkel/my-portfolio-using-react/static/media/pizzaexpress.3cb2f1425a49fb29e5aa.jpeg",
+    "index.html": "/Lishakuinkel/my-portfolio-using-react/index.html",
+    "main.972b1214.css.map": "/Lishakuinkel/my-portfolio-using-react/static/css/main.972b1214.css.map",
+    "main.0f150931.js.map": "/Lishakuinkel/my-portfolio-using-react/static/js/main.0f150931.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972b1214.css",
+    "static/js/main.0f150931.js"
+  ]
+}
