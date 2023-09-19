@@ -31,6 +31,9 @@ Check out my github profile: https://github.com/Lishakuinkel
 
 ## References
 https://legacy.reactjs.org/tutorial/tutorial.html
+
 https://www.npmjs.com/package/react-toastify
+
 https://tailwindcss.com/docs/installation
+
 https://www.w3schools.com/react/react_useref.asp
