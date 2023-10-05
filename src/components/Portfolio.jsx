@@ -26,10 +26,10 @@ const Portfolio = () => {
             
             <div className='w-full text-[#36454F text-center shadow-xl flex flex-col md:my-0 my-4 rounded-lg hover:scale-110 duration-300 p-4 '>
                 <img className='w-20 mx-auto mt-[-3rem] rounded-full' src={weather} alt="weather dashboard" />
-                <h2 className='font-bold text-2xl py-6'>Weather Dashboard</h2>
-                <p className='text-1xl font-thin'>Front end app built with HTML, CSS, JS, Bootstrap and Third party APIs(OpenWeather, GeoCoding)</p>
-                <a className='text-[#6b91b8] py-3 font-style: italic' href="https://lishakuinkel.github.io/Weather-Dashboard/">View the app</a>
-                <a className='text-[#6b91b8] py-3 font-style: italic' href="https://github.com/Lishakuinkel/Weather-Dashboard">Github repo</a>
+                <h2 className='font-bold text-2xl py-6'>Giftlab</h2>
+                <p className='text-1xl font-thin'>Full Stack Web App</p>
+                <a className='text-[#6b91b8] py-3 font-style: italic' href="https://giftlab-123-610fac927377.herokuapp.com/">View the app</a>
+                <a className='text-[#6b91b8] py-3 font-style: italic' href="https://github.com/Lishakuinkel/Giftlab">Github repo</a>
             </div>
             <div className='w-full text-[#36454F text-center shadow-xl py-14 flex flex-col md:my-0 my-4 rounded-lg hover:scale-110 duration-300 p-4 '>
                 <img className='w-20 mx-auto mt-[-3rem] rounded-full' src={socialapi} alt="Social Network Api" />
