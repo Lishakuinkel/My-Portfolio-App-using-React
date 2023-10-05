@@ -27,7 +27,7 @@ const Portfolio = () => {
             <div className='w-full text-[#36454F text-center shadow-xl flex flex-col md:my-0 my-4 rounded-lg hover:scale-110 duration-300 p-4 '>
                 <img className='w-20 mx-auto mt-[-3rem] rounded-full' src={weather} alt="weather dashboard" />
                 <h2 className='font-bold text-2xl py-6'>Giftlab</h2>
-                <p className='text-1xl font-thin'>Full Stack Web App</p>
+                <p className='text-1xl font-thin'>Full Stack Web App built with Node.js, React, MongoDB, Express, TailwindCSS</p>
                 <a className='text-[#6b91b8] py-3 font-style: italic' href="https://giftlab-123-610fac927377.herokuapp.com/">View the app</a>
                 <a className='text-[#6b91b8] py-3 font-style: italic' href="https://github.com/Lishakuinkel/Giftlab">Github repo</a>
             </div>
